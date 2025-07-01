@@ -1,0 +1,14 @@
+{
+  "name": "baileys-test",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.0",
+    "env": "^0.0.2",
+    "pino": "^8.21.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
