@@ -3,7 +3,7 @@ const  dotenv = require("dotenv")
 
 dotenv.config();
 
-const API_URL = "https://api.groq.com/openai/v1/chat/completions"; // rota  post !
+const API_URL = process.env.URL_API_LLM; // rota  post !
 const API_KEY =  process.env.API_KEY;
 
 async function askGroq(message) {
